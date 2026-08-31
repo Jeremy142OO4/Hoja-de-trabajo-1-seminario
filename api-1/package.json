@@ -1,0 +1,13 @@
+{
+  "name": "semi1-ht1-api-1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API #1 para la HT1 de Seminario de Sistemas 1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+

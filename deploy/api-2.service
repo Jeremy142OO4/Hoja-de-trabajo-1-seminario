@@ -1,0 +1,17 @@
+[Unit]
+Description=Seminario 1 HT1 - API 2 (Python)
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/HT1/api-2
+Environment=PORT=3000
+Environment=CARNET=202300644
+Environment="ESTUDIANTE=Jeremy Estuardo Orellana Aldana"
+ExecStart=/usr/bin/python3 server.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
